@@ -71,7 +71,8 @@ Development workflow:
 1. User enters a query.  
 2. Form submits via `GET`.  
 3. Query stays in the input field after submission.  
-4. Backend API can process the query and return results.  
+4. Backend API can process the query and return results.
+5. (Side note: im planning to use a plethera of engines and use the results from them and rank the websites based off of how many times it appeared across all of them and some engines like google or bing have a heavier weight because they are built better and are used more often)
 
 ---
 
@@ -99,4 +100,3 @@ This project is proprietary and protected under copyright.
 Syne is the starting point for a new kind of search engine.  
 Fast and elegant. Syne sets the stage for a **user‑centric meta‑search experience**.
 
-**Clone the repo, connect your API, and start searching today!**
