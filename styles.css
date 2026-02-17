@@ -10,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Syne', sans-serif;
 }
 
 /* Bigger container */
@@ -22,6 +23,7 @@ body {
   border-radius: 16px;
   background: #1a1a1a;
   box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  font-family: 'Syne', sans-serif;
 }
 
 /* Input grows to fill */
@@ -32,6 +34,7 @@ body {
   outline: none;
   background: transparent;
   color: #f5f5f5;
+  font-family: 'Syne', sans-serif;
 }
 
 /* Button styling */
@@ -48,4 +51,27 @@ body {
 
 .search-btn:hover {
   background: #3a3a3a;
+}
+
+.spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #dedede5f;   
+  border-top: 4px solid #dedede; 
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Footer stays fixed at bottom */
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
 }
