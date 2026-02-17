@@ -1,1 +1,1 @@
-# Syne-Search-Engine-
+# Syne-Search-Engine
