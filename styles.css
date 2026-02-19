@@ -75,3 +75,9 @@ body {
   width: 100%;
   text-align: center;
 }
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
